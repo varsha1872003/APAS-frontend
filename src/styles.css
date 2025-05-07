@@ -73,11 +73,11 @@ body {
     margin: 0 auto;
   }
   
-  .feedback-textarea {
+  /* .feedback-textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-  }
+  } */
   
   .feedback-button, .toggle-button {
     padding: 8px 12px;
@@ -106,4 +106,12 @@ body {
     padding: 5px 0;
     border-bottom: 1px solid #eee;
   }
+
+  .feedback-input,
+.feedback-textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
   
