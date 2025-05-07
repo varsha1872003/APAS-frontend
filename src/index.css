@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('/volleyball-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #1f2937;
+}
+
+.coach-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+}
+
+/* .coach-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #1e40af;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+} */
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #93c5fd;
+}
+
+.coach-content {
+  flex-grow: 1;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}

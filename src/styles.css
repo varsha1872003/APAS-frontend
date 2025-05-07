@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .coach-nav {
+    background-color: #3498db;
+    padding: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .coach-content {
+    padding: 20px;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    color: #8e44ad;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  .section-title {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .profile-card, .leaderboard-list, .athlete-list {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .leaderboard-item, .athlete-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .feedback-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-button, .toggle-button {
+    padding: 8px 12px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .feedback-button:hover, .toggle-button:hover {
+    background-color: #1e8449;
+  }
+  
+  .feedback-success {
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .feedback-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedback-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
